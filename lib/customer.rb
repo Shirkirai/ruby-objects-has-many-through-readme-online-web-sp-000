@@ -1,7 +1,7 @@
 class Customer
   attr_reader :name, :age
 
-  @@all
+  @@all = []
   def initialize(name, age)
     @name = name
     @age = age
